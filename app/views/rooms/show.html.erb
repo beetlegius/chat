@@ -1,0 +1,10 @@
+<h1>Chat desarrollado en Rails con websockets</h1>
+
+<form>
+  <label>Tu mensaje:</label><br />
+  <input type="text" data-behavior="room_speaker" autofocus />
+</form>
+
+<div id="messages">
+  <%= render @messages %>
+</div>
